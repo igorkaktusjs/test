@@ -1,5 +1,18 @@
-const answers = [];
+const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", "" );
 
-answers[0] =prompt('How are you ?','');
-answers[1] =prompt('How old are you ?','');
-    console.log(typeof(answers));
+
+const questionOfFilms = prompt("Один из последних просмотреных фильмов?", "" );
+const scoreOfFilms = prompt("На сколько оцените его ? ", "" );
+
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privet: false
+};
+
+personalMovieDB.movies[questionOfFilms] = scoreOfFilms;
+
+console.log(personalMovieDB);
