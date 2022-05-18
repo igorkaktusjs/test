@@ -1,18 +1,81 @@
-const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", "" );
+    
+    
 
+    // Место для первой задачи
+function firstTask() {
+    for (let i=5; i<= 10; i++){
+    console.log(i);
+}
+    
+}
 
-const questionOfFilms = prompt("Один из последних просмотреных фильмов?", "" );
-const scoreOfFilms = prompt("На сколько оцените его ? ", "" );
+// Место для второй задачи
+function secondTask() {
+    // Пишем решение вот тут
+    for (let i=20; i>9;){
+    console.log(i);
+    --i;
+    if(i==12)
+    {
+        break;
+    }
+}
+    
+}
 
+// Место для третьей задачи
+function thirdTask() {
+    // Пишем решение вот тут
+    for (let i=2; i<12;++i){
+    console.log(i);
+    ++i;
+    }
+    
+}
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privet: false
-};
+// Место для четвертой задачи
 
-personalMovieDB.movies[questionOfFilms] = scoreOfFilms;
+// Цикл, который нужно переписать:
 
-console.log(personalMovieDB);
+ for (let i = 2; i <= 16; i++) {
+   if (i % 2 === 0) {
+       continue;
+     } else {
+        console.log(i);
+     }
+ }
+
+function fourthTask() {
+    // Пишем решение вот тут
+    let i = 2;
+
+    while( i>16 ) {
+        console.log(i);
+        i++;
+    }
+
+    while ( i<= 16){
+        i++;
+        if(i % 2 === 0)
+        {
+            
+        console.log(i);
+        
+        continue;
+    }
+    
+    }
+    
+}
+
+// Место для пятой задачи
+
+function fifthTask() {
+    const arrayOfNumbers = [];
+
+    // Пишем решение вот тут
+    
+    
+    // Не трогаем
+    return arrayOfNumbers;
+}
